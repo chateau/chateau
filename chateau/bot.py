@@ -52,7 +52,7 @@ class Bot(object):
     def send(self, *data):
         msg = ' '.join((str(i) for i in data))
         logging.debug(msg)
-        self.connection.push(msg.encode('utf_8'))
+        self.connection.push(msg.encode('utf_8') + b"\r\n")
     
     @property
     def nick(self):
