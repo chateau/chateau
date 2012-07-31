@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 import socket, asynchat, asyncore, ssl
 
 class Connection(asynchat.async_chat):

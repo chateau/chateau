@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 import chateau, logging
 logging.basicConfig(level=logging.DEBUG)
 bot = chateau.bot.Bot({

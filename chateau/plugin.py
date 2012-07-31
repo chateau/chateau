@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 class Plugin(object):
     def subscribe(fn, *types):
         new = set(types)
